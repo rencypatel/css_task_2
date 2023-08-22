@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&dispaly=swap');
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+            body{
+                min-height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgb(213, 245, 250);
+            }
+           
+            .container{
+                position: relative;
+                width: 90%;
+                height: 80%;
+                border-radius: 6px;
+                padding: 30px;
+                margin: 0 15px;
+                background-color: whitesmoke;
+            }
+            .container header{
+                font-size: 20px;
+                font-weight: 600;
+                color: black;
+            }
+            .container form{
+                position: relative;
+            }
+            .container form .details{
+                margin-top: 30px;
+            }
+            .container form .title{
+                display: block;
+                margin-bottom: 8px;
+                font-size: 19px;
+                font-weight: 600;
+                margin: 6px 0;
+                color: #333;
+            }
+            .container form .fields{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            form .fields .input-field{
+                display: flex;
+                width: calc(100% / 3 - 15px);
+                flex-direction: column;
+                margin: 4px 0;
+            }
+
+            .input-field label{
+                font-size: 12ox;
+                font-weight: 500;
+                color: #2e2e2e;
+            }
+            .input-field input{
+                outline: none;
+                font-size: 14px;
+                font-weight: 400;
+                color: #333;
+                border-radius: 5px;
+                border: 1px solid #aaa;
+                padding: 0 15px;
+                height: 42px;
+                margin: 8px 0;
+            }
+            .input-field2 input{
+                outline: none;
+                font-size: 14px;
+                font-weight: 400;
+                color: #333;
+                border-radius: 5px;
+                border: 1px solid #aaa;
+                padding: 0 15px;
+                height: 42px;
+                margin: 8px 0;
+                width: 50%;
+            }
+            form .fields2 .input-field2{
+                display: flex;
+                width: calc(50% / 3 - 15px);
+                flex-direction: column;
+                margin: 4px 0;
+            }
+            .container form .fields2{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .container form .fields3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+            form .fields3 .input-field3{
+                display: flex;
+                width: calc(50% / 3 - 15px);
+                flex-direction: column;
+                margin: 4px 0;
+            }
