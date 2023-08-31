@@ -61,10 +61,6 @@
             flex-direction: column;
             margin: 4px 0;
         }
-        .small-block {
-            width: calc(50% - 7.5px); /* Adjust margin and padding */
-        }
-
         .input-field label{
             font-size: 12ox;
             font-weight: 500;
@@ -80,6 +76,11 @@
             padding: 0 15px;
             height: 42px;
             margin: 8px 0;
+        }
+        .radio{
+            padding: 0 12px;
+            height: 42px;
+            justify-content: left;
         }
 
         
@@ -117,15 +118,19 @@
                             <input type="text" required>
                         </div>
 
-                        <div class="input-field small-block">
-                          <label>State</label>
-                          <input type="text" required>
-                      </div>
+                        <div class="input-field">
+                            <div>
+                                <label>State</label>
+                                <input type="text" required>
+                                <label>City</label>
+                                <input type="text" required>
+                            </div>
+                        </div>
 
-                      <div class="input-field small-block">
-                          <label>City</label>
-                          <input type="text" required>
-                      </div>
+                        <div class="input-field">
+                            <label>Telephone Number</label>
+                            <input type="text" required>
+                        </div>
 
                         <div class="input-field">
                             <label>Toll-Free Number</label>
@@ -146,6 +151,20 @@
                             <label>Company Name</label>
                             <input type="text" required>
                         </div>
+
+                        <div class="input-field radio">
+                            <div>
+                                <label>Owned</label>
+                                <input type="radio" required>
+                                <label>Rental</label>
+                                <input type="radio" required>
+                            </div>
+                        </div>
+
+                        <div class="input-field">
+                            
+                        </div>
+
                     </div>
                 </div>
             </div>
